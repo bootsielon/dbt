@@ -1,0 +1,27 @@
+# Virtual environment
+dbt_venv
+**/dbt_venv
+dbt_venv/
+dbt_venv/**
+**/dbt_venv/
+
+# Logs
+logs/
+**/logs/
+/logs/**
+
+#DBT specific
+my_dbt/target/
+**/target/
+my_dbt/dbt_packages/
+**/dbt_packages/
+
+# Python artifacts
+__pycache__/
+**/__pycache__/
+*.py[cod]
+**/*.py[cod]
+
+# OS generated files
+.DS_Store
+Thumbs.db
